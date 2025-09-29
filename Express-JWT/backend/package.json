@@ -1,0 +1,1 @@
+{"scripts":{"dev":"tsc --watch","build":"tsc","start":"node --run build && node ./dist/index.js && cd ../express-jwt && node --run dev"},"devDependencies":{"@types/node":"^24.5.2","typescript":"^5.9.2"},"dependencies":{"jsonwebtoken":"^9.0.2","mongodb":"^6.20.0"}}
